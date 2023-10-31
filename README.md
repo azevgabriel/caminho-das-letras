@@ -123,7 +123,7 @@
 
 - **Jogo da Forca e Anagrama:** Estes jogos podem ser adicionados como melhorias futuras, considerando o escopo e o orçamento disponível.
 
-### Testes: Planejar e alocar tempo para testes extensivos em todas as partes do sistema, especialmente nos jogos.
+#### Testes: Planejar e alocar tempo para testes extensivos em todas as partes do sistema, especialmente nos jogos.
 
 #### Feedback do Usuário: Incluir uma fase de teste com usuários reais para coletar feedback sobre a usabilidade e possíveis melhorias.
 
