@@ -1,10 +1,10 @@
 ## Revolução das letras: Requisitos e Orçamento
 
-### Cálculo do Valor da Hora
+### >>> Cálculo do Valor da Hora <<<
 
 - R$ 55/hora: Este valor foi calculado considerando um salário base mensal, dividido por 22 dias úteis e por 8 horas diárias, e dobrado para considerar o trabalho nos finais de semana (100% de acréscimo).
 
-### Requisitos Funcionais (Obrigatórios)
+### >>> Requisitos Funcionais (Obrigatórios) <<<
 
 #### Responsividade: Quais dispositivos que eu posso acessar o site.
 
@@ -99,7 +99,7 @@
 - Configuração e Manutenção: 4 dias (média) (32 horas) (R$ 1.760)
 - Orçamento de Custos dos Serviços: 1.5 dias (média) (12 horas) (R$ 660)
 
-### Tempo Estimado para Cada Parte do Projeto:
+### >>> Tempo Estimado para Cada Parte do Projeto: <<<
 
 - **Acesso (Front-end + Back-end):** 14 horas
 - **Usuários (Front-end + Back-end):** 7 horas
@@ -115,11 +115,19 @@
 Convertendo para dias (considerando 8 horas de trabalho por dia):
 369 horas / 8 horas ≈ **46.125 dias**
 
-Portanto, o projeto levaria aproximadamente 46 dias para ser concluído, considerando a estimativa média de tempo para cada tarefa e uma jornada de trabalho de 8 horas por dia.
+Portanto, o projeto levaria aproximadamente 46 dias para ser concluído, considerando a estimativa média de tempo para cada tarefa e uma jornada de trabalho de 8 horas por dia. 
 
 Total Estimado: **R$ 29.620**
 
-### Requisitos não Funcionais (Não Obrigatórios)
+## Tempo Necessário para Conclusão do Projeto
+
+- **Total de Horas Estimadas:** 369 horas
+- **Horas de Trabalho por Semana:** 24 horas
+- Tempo Necessário para Conclusão: 369 / 24 ≈ 15,375 semanas
+
+Portanto, seriam necessárias aproximadamente 15 semanas para concluir o projeto, considerando a disponibilidade de 24 horas de trabalho por semana.
+
+### >>> Requisitos não Funcionais (Não Obrigatórios) <<<
 
 #### Responsividade
 
@@ -129,7 +137,7 @@ Total Estimado: **R$ 29.620**
 
 - **Quantidade de Usuários:** Este item deve ser discutido mais detalhadamente para estabelecer uma limitação, se necessária.
 
-### Trilha
+#### Trilha
 
 - **Monitoramento de Atividades:** Implementação de lógicas para garantir que o usuário realmente finalizou o vídeo ou jogo e evitar pontuação repetida.
 
