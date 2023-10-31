@@ -1,38 +1,58 @@
-## Revolução das letras: Requisitos e Orçamento
+# Revolução das letras: Requisitos e Orçamento
 
-### >>> Cálculo do Valor da Hora <<<
+## Cálculo do Valor da Hora
 
 - R$ 55/hora: Este valor foi calculado considerando um salário base mensal, dividido por 22 dias úteis e por 8 horas diárias, e dobrado para considerar o trabalho nos finais de semana (100% de acréscimo).
 
-### >>> Requisitos Funcionais (Obrigatórios) <<<
+## Esclarecimentos ao Cliente
 
-#### Responsividade: Quais dispositivos que eu posso acessar o site.
+### Front-end
+
+O "Front-end" é a parte da aplicação que os usuários veem e interagem diretamente. Ele é construído usando tecnologias como HTML, CSS, e JavaScript, e é responsável pela apresentação visual da aplicação, bem como pela interação do usuário. No projeto "Revolução das Letras", o front-end incluiria:
+
+- Design e implementação das telas de acesso, listagem de usuários, trilhas e jogos.
+- Estruturação dos elementos visuais e botões.
+- Implementação de responsividade para diferentes resoluções de tela.
+
+### Back-end
+
+O "Back-end" refere-se à parte do sistema que roda no servidor e lida com a lógica de negócios, manipulação de dados e interação com o banco de dados. Ele é responsável por processar as solicitações feitas pelo front-end, executar operações necessárias e retornar os resultados. No "Revolução das Letras", o back-end seria responsável por:
+
+- Autenticação e gestão de usuários.
+- Lógicas para listagem de usuários e acesso a trilhas e jogos.
+- Manipulação de dados e interação com o banco de dados.
+
+## Requisitos Funcionais (Obrigatórios)
+
+### Responsividade: Quais dispositivos que eu posso acessar o site.
 
 - Dispositivos: Acesso via Desktop com resoluções de 1280x720 até Ultrawides.
 
-#### Acesso
+### Acesso
 
-- **Front-end (Interface)**
+> "Acesso" refere-se à forma como os usuários interagem e entram em um sistema ou aplicação. No contexto de um site ou aplicação web, isso geralmente envolve o uso de um nome de usuário e senha para verificar a identidade do usuário e conceder-lhe permissão para acessar certos recursos ou informações.
+
+- **Front-end**
     - Criação da tela de Acesso
         - Design da Tela: 4 horas (R$ 220)
         - Implementação da Tela no Site: 10 horas (média) (R$ 550)
-- **Back-end (Lógicas de Negócio)**
+- **Back-end**
     - Criação do modelo e banco de dados (2 horas) (R$ 110)
     - Autenticação por Token de Acesso: 5 horas (média) (R$ 275)
 
-#### Usuários
+### Usuários
 
-- **Front-end (interface)**
+- **Front-end**
     - Listagem de Usuários
         - Design de Tela: 2 horas (R$ 110)
         - Implementação de Tela no Site: 5 horas (média) (R$ 275)
         - Botão para Criação de Novos Usuários: Incluso na implementação
         - Modal ou Tela para Adicionar Novo Usuário: 2 horas (R$ 110)
-- **Back-end (Lógicas de Negócio)**
+- **Back-end**
     - Criação do Modelo e Banco de Dados: 2 horas (R$ 110)
     - Listagem de Usuário por Acesso: 5 horas (média) (R$ 275)
 
-#### Trilha
+### Trilha
 
 - **Front-end**
     - Obrigatoriedade de reutilização do mapa estático: 5 dias (40 horas) (R$ 2.200)
@@ -45,7 +65,7 @@
 - **Back-end**
     - Lógicas de Pontuação e Progresso: 4 dias (32 horas) (R$ 1.760)
         
-#### Jogos
+### Jogos
 
 - **Jogo do ditado:** 3.5 dias (média) (28 horas) (R$ 1.540)
     - Mostrar imagem e botão que fala o nome do objeto.
@@ -94,12 +114,12 @@
         - Erro, retorna para o fundo.
 
 
-#### Servidor e Serviços
+### Servidor e Serviços
 
 - Configuração e Manutenção: 4 dias (média) (32 horas) (R$ 1.760)
 - Orçamento de Custos dos Serviços: 1.5 dias (média) (12 horas) (R$ 660)
 
-### >>> Tempo Estimado para Cada Parte do Projeto: <<<
+## Tempo Estimado para Cada Parte do Projeto:
 
 - **Acesso (Front-end + Back-end):** 14 horas
 - **Usuários (Front-end + Back-end):** 7 horas
@@ -127,32 +147,31 @@ Total Estimado: **R$ 29.620**
 
 Portanto, seriam necessárias aproximadamente 15 semanas para concluir o projeto, considerando a disponibilidade de 24 horas de trabalho por semana.
 
-### >>> Requisitos não Funcionais (Não Obrigatórios) <<<
+## Requisitos não Funcionais (Não Obrigatórios)
 
-#### Responsividade
+### Responsividade
 
 - **Acesso para Celulares e Tablets:** Este item seria tratado como uma melhoria futura.
 
-#### Acesso
+### Acesso
 
 - **Quantidade de Usuários:** Este item deve ser discutido mais detalhadamente para estabelecer uma limitação, se necessária.
 
-#### Trilha
+### Trilha
 
 - **Monitoramento de Atividades:** Implementação de lógicas para garantir que o usuário realmente finalizou o vídeo ou jogo e evitar pontuação repetida.
 
-#### Usuários
+### Usuários
 
 - **Segurança e Privacidade:** Implementação de medidas para garantir a segurança dos dados do usuário e sua privacidade.
 
-#### Jogos
+### Jogos
 
 - **Jogo da Forca e Anagrama:** Estes jogos podem ser adicionados como melhorias futuras, considerando o escopo e o orçamento disponível.
 
-#### Testes: Planejar e alocar tempo para testes extensivos em todas as partes do sistema, especialmente nos jogos.
+### Testes: Planejar e alocar tempo para testes extensivos em todas as partes do sistema, especialmente nos jogos.
 
-#### Feedback do Usuário: Incluir uma fase de teste com usuários reais para coletar feedback sobre a usabilidade e possíveis melhorias.
-
+### Feedback do Usuário: Incluir uma fase de teste com usuários reais para coletar feedback sobre a usabilidade e possíveis melhorias.
 
 ## Notas
 - É importante observar que os tempos estimados para as tarefas são médias, e podem variar conforme a complexidade do projeto e a equipe de desenvolvimento.
