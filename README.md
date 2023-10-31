@@ -99,7 +99,25 @@
 - Configuração e Manutenção: 4 dias (média) (32 horas) (R$ 1.760)
 - Orçamento de Custos dos Serviços: 1.5 dias (média) (12 horas) (R$ 660)
 
-### Total Estimado: R$ 29.620
+### Tempo Estimado para Cada Parte do Projeto:
+
+- **Acesso (Front-end + Back-end):** 14 horas
+- **Usuários (Front-end + Back-end):** 7 horas
+- **Trilha (Front-end + Back-end):** 72 horas (9 dias)
+- **Jogos:**
+    - **Ditado:** 28 horas (3.5 dias)
+    - **Navinha:** 240 horas (30 dias)
+    - **Digitação:** 48 horas (6 dias)
+    - **Memória:** 16 horas (2 dias)
+- **Servidor e Serviços:** 44 horas (5.5 dias)
+- **Somando o Tempo Total:** 14 + 7 + 72 + 28 + 240 + 48 + 16 + 44 horas = 369 horas
+
+Convertendo para dias (considerando 8 horas de trabalho por dia):
+369 horas / 8 horas ≈ **46.125 dias**
+
+Portanto, o projeto levaria aproximadamente 46 dias para ser concluído, considerando a estimativa média de tempo para cada tarefa e uma jornada de trabalho de 8 horas por dia.
+
+Total Estimado: **R$ 29.620**
 
 ### Requisitos não Funcionais (Não Obrigatórios)
 
